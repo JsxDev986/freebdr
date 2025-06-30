@@ -1,4 +1,4 @@
-name: kingripal
+name: Avica
 
 on:
   workflow_dispatch:
@@ -17,6 +17,9 @@ jobs:
 
       - name: Show Website
         run: cmd /c show.bat
+
+      - name: Time Counter
+        run: cmd /c loop.bat
 
       - name: Time Counter
         run: cmd /c loop.bat
